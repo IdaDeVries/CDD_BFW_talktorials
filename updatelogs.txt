@@ -1,0 +1,3 @@
+T012:
+- Removed unused dependency on teachopencadd wrapper layer by replacing session.* calls with direct KLIFS_CLIENT Swagger/OpenAPI calls
+- Data handling now fully on KLIFS API (https://klifs.net/swagger/) using KLIFS_CLIENT
